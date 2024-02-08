@@ -6,16 +6,103 @@
     <title>Hello Tailwind</title>
     <link rel="stylesheet" href="./output.css" />
   </head>
-  <body class="bg-main_pink">
-    <div class="bg-white w-96 mx-auto p-10 rounded-3xl">
+  <body class="bg-main_pink sa text-wenge-brown">
+    <div class="max-w-[736px] bg-white mx-auto mt-[123px] p-10 rounded-3xl">
       <img
-        class="rounded-xl"
+        class="rounded-xl w-full h-[300px] object-cover mb-10"
         src="../images/top-image.jpg"
         alt=""
         width="656"
         height="300"
       />
-      <h1 class="text-4xl">Simple Omelette Recipe</h1>
+      <h1 class="text-[40px] font-serif mb-6 text-dark-charcoal">
+        Simple Omelette Recipe
+      </h1>
+      <p class="mb-8">
+        An easy and quick dish, perfect for any meal. This classic omelette
+        combines beaten eggs cooked to perfection, optionally filled with your
+        choice of cheese, vegetables, or meats.
+      </p>
+      <div class="p-7 bg-snow rounded-xl mb-8">
+        <h4 class="text-xl font-semibold text-dark-rasbarry mb-4">
+          Preparation time
+        </h4>
+        <ul class="list-disc marker:text-dark-rasbarry pl-5">
+          <li class="mb-2 pl-4">
+            <span class="font-bold">Total</span>: Approximately 10 minutes
+          </li>
+          <li class="mb-2 pl-4">
+            <span class="font-bold">Preparation</span>: 5 minutes
+          </li>
+          <li class="mb-2 pl-4">
+            <span class="font-bold">Cooking</span>: 5 minutes
+          </li>
+        </ul>
+      </div>
+      <b class="text-[28px] font-serif text-brandy-red">Ingredients</b>
+      <ul class="list-disc marker:text-dark-rasbarry pl-6 mt-6">
+        <li class="pl-4 mb-2">2-3 large eggs</li>
+        <li class="pl-4 mb-2">Salt, to taste</li>
+        <li class="pl-4 mb-2">Pepper, to taste</li>
+        <li class="pl-4 mb-2">1 tablespoon of butter or oil</li>
+        <li class="pl-4 mb-16">
+          Optional fillings: cheese, diced vegetables, cooked meats, herbs
+        </li>
+      </ul>
+      <b class="text-[28px] font-serif text-brandy-red ">Instructions</b>
+      <ul class="list-decimal marker:text-dark-rasbarry pl-5 mt-6">
+        <li class="pl-4 mb-2">
+          <span class="font-bold">Beat the eggs</span>: In a bowl, beat the eggs
+          with a pinch of salt and pepper until they are well mixed. You can add
+          a tablespoon of water or milk for a fluffier texture.
+        </li>
+        <li class="pl-4 mb-2">
+          <span class="font-bold">Heat the pan</span>: Place a non-stick frying
+          pan over medium heat and add butter or oil.
+        </li>
+        <li class="pl-4 mb-2">
+          <span class="font-bold">Cook the omelette</span>: Once the butter is
+          melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs
+          evenly coat the surface.
+        </li>
+        <li class="pl-4 mb-2">
+          <span class="font-bold">Add fillings (optional)</span>: When the eggs
+          begin to set at the edges but are still slightly runny in the middle,
+          sprinkle your chosen fillings over one half of the omelette.
+        </li>
+        <li class="pl-4 mb-2">
+          <span class="font-bold">Fold and serve</span>: As the omelette
+          continues to cook, carefully lift one edge and fold it over the
+          fillings. Let it cook for another minute, then slide it onto a plate.
+        </li>
+        <li class="pl-4 mb-16">
+          <span class="font-bold">Enjoy</span>: Serve hot, with additional salt
+          and pepper if needed.
+        </li>
+      </ul>
+      <b class="text-[28px] font-serif text-brandy-red ">Nutrition</b>
+      <p class="mb-6 mt-6">
+        The table below shows nutritional values per serving without the
+        additional fillings.
+      </p>
+      <ul class="flex flex-col gap-6">
+        <li class="flex pl-8">
+          <p class="w-72">Calories</p>
+          <p class="w-72 text-brandy-red font-bold">277kcal</p>
+        </li>
+        <li class="flex pl-8">
+          <p class="w-72">Carbs</p>
+          <p class="w-72 text-brandy-red font-bold">0g</p>
+        </li>
+        <li class="flex pl-8">
+          <p class="w-72">Protein</p>
+          <p class="w-72 text-brandy-red font-bold">20g</p>
+        </li>
+        <li class="flex pl-8">
+          <p class="w-72">Fat</p>
+          <p class="w-72 text-brandy-red font-bold">22g</p>
+        </li>
+      </ul>
     </div>
   </body>
 </html>

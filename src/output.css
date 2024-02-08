@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Outfit, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -549,6 +549,95 @@ video {
   margin-right: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-\[123px\] {
+  margin-top: 123px;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mb-64 {
+  margin-bottom: 16rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.table {
+  display: table;
+}
+
+.size-4 {
+  width: 1rem;
+  height: 1rem;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.max-w-\[736px\] {
+  max-width: 736px;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -562,18 +651,133 @@ video {
   background-color: rgb(243 229 215 / var(--tw-bg-opacity));
 }
 
+.bg-snow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 247 251 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-10 {
   padding: 2.5rem;
 }
 
+.p-7 {
+  padding: 1.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pl-9 {
+  padding-left: 2.25rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.font-serif {
+  font-family: Young Serif, serif;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-brandy-red {
+  --tw-text-opacity: 1;
+  color: rgb(133 70 50 / var(--tw-text-opacity));
+}
+
+.text-dark-rasbarry {
+  --tw-text-opacity: 1;
+  color: rgb(122 40 78 / var(--tw-text-opacity));
+}
+
+.text-wenge-brown {
+  --tw-text-opacity: 1;
+  color: rgb(95 86 77 / var(--tw-text-opacity));
+}
+
+.text-dark-charcoal {
+  --tw-text-opacity: 1;
+  color: rgb(49 46 44 / var(--tw-text-opacity));
+}
+
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-90 {
+  opacity: 0.9;
 }
 
 /* outfit-regular - latin */
@@ -646,4 +850,12 @@ video {
   src: url("./fonts/young-serif-v2-latin-regular.woff2") format("woff2");
 
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.marker\:text-dark-rasbarry *::marker {
+  color: rgb(122 40 78 );
+}
+
+.marker\:text-dark-rasbarry::marker {
+  color: rgb(122 40 78 );
 }
