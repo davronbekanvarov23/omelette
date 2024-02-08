@@ -677,6 +677,10 @@ video {
   font-family: Young Serif, serif;
 }
 
+.font-sans {
+  font-family: Outfit, sans-serif;
+}
+
 .text-\[28px\] {
   font-size: 28px;
 }
